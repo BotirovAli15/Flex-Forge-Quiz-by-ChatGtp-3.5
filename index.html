@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Forge Quiz</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Flex Forge Quiz</h1>
+    </header>
+    <main>
+        <section class="flex-container" id="quiz-container">
+            <div class="flex-item" id="item1">Элемент 1</div>
+            <div class="flex-item" id="item2">Элемент 2</div>
+            <div class="flex-item" id="item3">Элемент 3</div>
+            <div class="flex-item" id="item4">Элемент 4</div>
+        </section>
+        <section id="question-container">
+            <p id="question-text"></p>
+            <input type="text" id="answer-input" placeholder="Ваш ответ">
+            <button onclick="checkAnswer()">Ответить</button>
+            <p id="feedback"></p>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
