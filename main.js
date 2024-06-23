@@ -11,6 +11,7 @@ const answers = [
     "justify-content: center;",
     "align-items: center;"
 ];
+console.log(answers);
 
 let currentQuestionIndex = 0;
 
